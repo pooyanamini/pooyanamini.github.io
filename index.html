@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pooyan Amini — Staff Machine Learning Engineer</title>
+<meta name="description" content="Pooyan Amini. Staff machine learning engineer at Meta working on machine learning for neural interfaces and language-model systems.">
+<meta property="og:title" content="Pooyan Amini">
+<meta property="og:description" content="Staff machine learning engineer at Meta">
+<style>
+  :root {
+    --bg: #ffffff;
+    --ink: #1d1c1a;
+    --muted: #6d6a64;
+    --rule: #e3e0da;
+    --accent: #1f4e8c;
+    --accent-hover: #163a69;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-inline: 20px;
+    padding-block: 3.5rem 4rem;
+  }
+  main { max-width: 38rem; margin: 0 auto; }
+
+  .profile-header {
+    display: grid;
+    gap: 0.9rem;
+  }
+  a {
+    color: var(--accent);
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.06em;
+    text-underline-offset: 0.15em;
+  }
+  a:hover { color: var(--accent-hover); text-decoration: underline; text-underline-offset: 0.15em; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+  h1 {
+    font-size: 1.75em;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    margin: 0 0 0.35rem;
+    text-wrap: balance;
+  }
+  .tagline { margin: 0; color: var(--muted); }
+  .links {
+    display: flex; flex-wrap: wrap; gap: 0.25rem 1rem;
+    margin: 0; padding: 0; list-style: none;
+    font-size: 0.95rem;
+  }
+  .links a { text-decoration: none; }
+  .links a:hover { text-decoration: underline; }
+
+  h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.3;
+    margin: 2.6rem 0 0.9rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  p { margin: 0 0 1rem; }
+  section > p:last-child { margin-bottom: 0; }
+
+  /* Dated timeline: year range in the gutter, text on the right */
+  .timeline { display: grid; grid-template-columns: 7.25rem 1fr; gap: 1.4rem 1rem; margin: 0; }
+  .timeline dt {
+    color: var(--muted);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+    padding-top: 0.3rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .timeline dd { margin: 0; }
+  .timeline .role { display: block; font-weight: 600; }
+  .timeline .org { color: var(--muted); }
+  .timeline ul { margin: 0.4rem 0 0; padding-left: 1.1rem; }
+  .timeline li { margin: 0.2rem 0; }
+
+  /* Selected work: flat list, bold self-name, micro-links */
+  .work { margin: 0; padding: 0; list-style: none; display: grid; gap: 1.1rem; }
+  .work .title { display: block; font-weight: 600; }
+  .work .desc { color: var(--ink); }
+  .work .meta { color: var(--muted); font-size: 0.95em; }
+  .work .meta b { color: var(--ink); font-weight: 600; }
+  .work .micro { font-size: 0.85em; margin-left: 0.35rem; white-space: nowrap; text-decoration: none; }
+  .work .micro:hover { text-decoration: underline; }
+  .work .micro::before { content: "["; color: var(--muted); }
+  .work .micro::after { content: "]"; color: var(--muted); }
+  .full-list { margin-top: 1rem; color: var(--muted); font-size: 0.95em; }
+
+  footer {
+    margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: 0.85rem;
+    display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; justify-content: space-between;
+  }
+
+  @media (max-width: 520px) {
+    body { padding-block: 2.25rem 3rem; }
+    .timeline { grid-template-columns: 1fr; gap: 1.25rem; }
+    .timeline dt { padding-top: 0; }
+    .timeline dd { margin-top: -0.9rem; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    a { transition: color 120ms ease; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="profile-header">
+    <div class="profile-intro">
+      <h1>Pooyan Amini</h1>
+      <p class="tagline">Staff machine learning engineer at Meta.</p>
+    </div>
+    <ul class="links">
+      <li><span class="email">pooyan.amini [at] gmail.com</span></li>
+      <li><a href="https://scholar.google.com/citations?user=SwRsOwQAAAAJ&amp;hl=en">Google Scholar</a></li>
+      <li><a href="https://www.linkedin.com/in/pooyan-amini/">LinkedIn</a></li>
+    </ul>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I'm a Staff Machine Learning Engineer at Meta in the San Francisco Bay Area. My recent work focuses on machine learning for Meta Neural Band. Previously, I led a team building training, evaluation, and inference systems for language-model-based sequential decision-making.</p>
+    <p>I'm most interested in the less visible but essential parts of ML systems—data generation, evaluation, and fast feedback loops that turn model failures into better training data and behavior.</p>
+    <p>Earlier, I competed in RoboCup's middle-size league, where our team won the engineering challenge at the 2004 world championship in Lisbon, placed fifth at the ACM ICPC Asia regional, and won a silver medal at Iran's National Informatics Olympiad.</p>
+  </section>
+
+  <section id="selected-work">
+    <h2>Work</h2>
+    <ul class="work">
+      <li>
+        <span class="title">Machine learning for Meta Neural Band</span>
+        <span class="desc">Personalizing EMG models to improve coverage across the user population, monitoring for population drift in a privacy-preserving way by checking in-product failure rates against offline baselines, and training a single model jointly across six or more interaction tasks.</span>
+        <a class="micro" href="https://www.meta.com/emerging-tech/emg-wearable-technology/" aria-label="Meta Neural Band product page">product</a>
+      </li>
+      <li>
+        <span class="title">Sequential decision-making with LLMs</span>
+        <span class="desc">Led a seven-person team building data-generation and evaluation infrastructure, pipelines for supervised and reinforcement learning, and inference systems for sequential decision-making.</span>
+      </li>
+      <li>
+        <span class="title">End-to-end task-oriented dialogue (Project CAIRaoke)</span>
+        <span class="desc">Led scalable training and inference for end-to-end task-oriented dialogue, including API-call generation and model-in-the-loop workflows for rapid error correction.</span>
+        <a class="micro" href="https://ai.meta.com/blog/project-cairaoke/" aria-label="Project CAIRaoke overview">project</a>
+        <a class="micro" href="https://openreview.net/forum?id=a1meaRy1bN" aria-label="Project CAIRaoke robustness paper">paper</a>
+      </li>
+      <li>
+        <span class="title">Small-business advertiser recommendations</span>
+        <span class="desc">Built recommendation models that grew monthly active advertisers while reducing compute costs by about $7M.</span>
+      </li>
+      <li>
+        <span class="title">WhatsApp group integrity</span>
+        <span class="desc">Developed spam and automation detection, progressing from statistical anomaly detection to multi-task classifiers deployed at group creation.</span>
+      </li>
+    </ul>
+  </section>
+
+  <section id="experience-education">
+    <h2>Experience and education</h2>
+    <dl class="timeline">
+      <dt>2022–Present</dt>
+      <dd>
+        <span class="role">Staff Machine Learning Engineer</span>
+        <span class="org">Meta Platforms, San Francisco Bay Area</span>
+      </dd>
+
+      <dt>2018–2022</dt>
+      <dd>
+        <span class="role">Senior Machine Learning Engineer</span>
+        <span class="org">Meta Platforms, San Francisco Bay Area</span>
+      </dd>
+
+      <dt>2013–2018</dt>
+      <dd>
+        <span class="role">Staff Modem Systems Engineer</span>
+        <span class="org">Qualcomm Technologies, San Diego</span>
+        <ul>
+          <li>Led four engineers on LTE channel estimation and tracking loops, from algorithm design through firmware integration, lab bring-up and field triage.</li>
+          <li>Owned baseband algorithms in two commercial high-end LTE modems; cut channel-estimation power by 20% and raised the peak bitrate 33% with memory-efficient 256QAM demodulation.</li>
+        </ul>
+      </dd>
+
+      <dt>2007–2013</dt>
+      <dd>
+        <span class="role">PhD and MSc, Electrical and Computer Engineering</span>
+        <span class="org">University of Utah, Salt Lake City</span>
+        <ul>
+          <li>Cognitive radio and software-defined radio. Best Paper Award at the Software Defined Radio Conference.</li>
+        </ul>
+      </dd>
+
+      <dt>2003–2007</dt>
+      <dd>
+        <span class="role">BSc, Electrical Engineering</span>
+        <span class="org">Isfahan University of Technology</span>
+      </dd>
+    </dl>
+  </section>
+
+  <section id="publications">
+    <h2>Publications and patents</h2>
+    <ul class="work">
+      <li>
+        <span class="title">AUTODIAL: Efficient Asynchronous Task-Oriented Dialogue Model</span>
+        <span class="meta">P. Bhargava, <b>P. Amini</b>, S. Shayandeh, C. Sankar. arXiv, 2023.</span>
+        <a class="micro" href="https://arxiv.org/abs/2303.06245" aria-label="AUTODIAL paper">paper</a>
+      </li>
+      <li>
+        <span class="title">Robustness through Data Augmentation Loss Consistency</span>
+        <span class="meta">T. Huang, S. Halbe, C. Sankar, <b>P. Amini</b>, S. Kottur, A. Geramifard, M. Razaviyayn, A. Beirami. Transactions on Machine Learning Research, 2022.</span>
+        <a class="micro" href="https://openreview.net/forum?id=a1meaRy1bN" aria-label="Robustness through Data Augmentation Loss Consistency paper">paper</a>
+      </li>
+      <li>
+        <span class="title">Project CAIRaoke: end-to-end neural models for task-oriented dialogue</span>
+        <span class="meta">Meta AI, 2022.</span>
+        <a class="micro" href="https://ai.meta.com/blog/project-cairaoke/" aria-label="Project CAIRaoke blog post">blog</a>
+      </li>
+      <li>
+        <span class="title">Filterless Multiple Input Multiple Output (MIMO) Reception</span>
+        <span class="meta">S. Ciccarelli, V. Mahajan, T. Kim, S. Bhattacharjee, C. Sukumar, A. Mantravadi, <b>P. Amini</b>, A. Alvarino, C. Hardin. US Patent 11,202,264, 2020.</span>
+        <a class="micro" href="https://patents.google.com/patent/US11202264B2/en" aria-label="Filterless Multiple Input Multiple Output reception patent">patent</a>
+      </li>
+      <li>
+        <span class="title">System and method for detection of cell-specific reference signals</span>
+        <span class="meta"><b>P. Amini</b>, A. Farajidana, S. Das, W. Zhang, S. Bhattacharjee, T. Luo. Patent application WO2018164783A1, 2018.</span>
+        <a class="micro" href="https://patents.google.com/patent/WO2018164783A1/en" aria-label="Cell-specific reference signal detection patent">patent</a>
+      </li>
+      <li>
+        <span class="title">Centralized Management for Pilot Pollution Mitigation in Small Cell Networks</span>
+        <span class="meta">S. Nagaraja, <b>P. Amini</b>, Y. Tokgoz, F. Meshkati, C. Chevallier, M. Yavuz. US Patent 9,357,507, 2016.</span>
+        <a class="micro" href="https://patents.google.com/patent/US9357507B2/en" aria-label="Pilot pollution mitigation patent">patent</a>
+      </li>
+      <li>
+        <span class="title">Cognitive Spectrum Management</span>
+        <span class="meta"><b>P. Amini</b>, D. Wasden, A. Farhang, E. Azarnasab, B. Farhang-Boroujeny. Software Defined Radio Technical Conference, 2008. Best Paper Award.</span>
+      </li>
+    </ul>
+    <p class="full-list">Full list on <a href="https://scholar.google.com/citations?user=SwRsOwQAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+  </section>
+
+
+  <footer>
+    <span>Pooyan Amini · SF Bay Area</span>
+    <span>Updated September 2026</span>
+  </footer>
+</main>
+</body>
+</html>
