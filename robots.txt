@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pooyanamini.github.io/sitemap.xml
