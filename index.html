@@ -52,7 +52,8 @@
     margin: 0 0 0.35rem;
     text-wrap: balance;
   }
-  .tagline { margin: 0; color: var(--muted); }
+  .tagline { margin: 0; }
+  .current-role { margin: 0.35rem 0 0; color: var(--muted); }
   .links {
     display: flex; flex-wrap: wrap; gap: 0.25rem 1rem;
     margin: 0; padding: 0; list-style: none;
@@ -122,7 +123,8 @@
   <header class="profile-header">
     <div class="profile-intro">
       <h1>Pooyan Amini</h1>
-      <p class="tagline">Staff machine learning engineer at Meta.</p>
+      <p class="tagline">I build data, evaluation, and feedback systems that turn model failures into better behavior.</p>
+      <p class="current-role">Staff machine learning engineer at Meta.</p>
     </div>
     <ul class="links">
       <li><span class="email">pooyan.amini [at] gmail.com</span></li>
@@ -134,7 +136,7 @@
   <section id="about">
     <h2>About</h2>
     <p>I'm a Staff Machine Learning Engineer at Meta in the San Francisco Bay Area. My recent work focuses on machine learning for Meta Neural Band. Previously, I led a team building training, evaluation, and inference systems for language-model-based sequential decision-making.</p>
-    <p>I'm most interested in the less visible but essential parts of ML systems—data generation, evaluation, and fast feedback loops that turn model failures into better training data and behavior.</p>
+    <p>I'm especially interested in finding model failures after deployment, measuring them reliably, and using what we learn to improve the next training cycle.</p>
     <p>Earlier, I competed in RoboCup's middle-size league, where our team won the engineering challenge at the 2004 world championship in Lisbon, placed fifth at the ACM ICPC Asia regional, and won a silver medal at Iran's National Informatics Olympiad.</p>
   </section>
 
@@ -143,12 +145,13 @@
     <ul class="work">
       <li>
         <span class="title">Machine learning for Meta Neural Band</span>
-        <span class="desc">Personalizing EMG models to improve coverage across the user population, monitoring for population drift in a privacy-preserving way by checking in-product failure rates against offline baselines, and training a single model jointly across six or more interaction tasks.</span>
+        <span class="desc">Contributed to the 2025 launch of Meta Neural Band, Meta's first consumer product using surface EMG, bundled with Meta Ray-Ban Display. My work includes personalizing EMG models to improve coverage across the user population, monitoring for population drift in a privacy-preserving way by checking in-product failure rates against offline baselines, and training a single model jointly across six or more interaction tasks.</span>
         <a class="micro" href="https://www.meta.com/emerging-tech/emg-wearable-technology/" aria-label="Meta Neural Band product page">product</a>
+        <a class="micro" href="https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/" aria-label="Meta Neural Band launch announcement">launch</a>
       </li>
       <li>
         <span class="title">Sequential decision-making with LLMs</span>
-        <span class="desc">Led a seven-person team building data-generation and evaluation infrastructure, pipelines for supervised and reinforcement learning, and inference systems for sequential decision-making.</span>
+        <span class="desc">Led a seven-person team that built a repeatable path from data generation and evaluation through supervised and reinforcement learning to inference for sequential decision-making. This let the team iterate on LLMs for multi-step tasks within one development loop.</span>
       </li>
       <li>
         <span class="title">End-to-end task-oriented dialogue (Project CAIRaoke)</span>
@@ -220,13 +223,8 @@
         <a class="micro" href="https://openreview.net/forum?id=a1meaRy1bN" aria-label="Robustness through Data Augmentation Loss Consistency paper">paper</a>
       </li>
       <li>
-        <span class="title">Project CAIRaoke: end-to-end neural models for task-oriented dialogue</span>
-        <span class="meta">Meta AI, 2022.</span>
-        <a class="micro" href="https://ai.meta.com/blog/project-cairaoke/" aria-label="Project CAIRaoke blog post">blog</a>
-      </li>
-      <li>
         <span class="title">Filterless Multiple Input Multiple Output (MIMO) Reception</span>
-        <span class="meta">S. Ciccarelli, V. Mahajan, T. Kim, S. Bhattacharjee, C. Sukumar, A. Mantravadi, <b>P. Amini</b>, A. Alvarino, C. Hardin. US Patent 11,202,264, 2020.</span>
+        <span class="meta">S. Ciccarelli, V. Mahajan, T. Kim, S. Bhattacharjee, C. Sukumar, A. Mantravadi, <b>P. Amini</b>, A. Alvarino, C. Hardin. US Patent 11,202,264, 2021.</span>
         <a class="micro" href="https://patents.google.com/patent/US11202264B2/en" aria-label="Filterless Multiple Input Multiple Output reception patent">patent</a>
       </li>
       <li>
@@ -241,7 +239,7 @@
       </li>
       <li>
         <span class="title">Cognitive Spectrum Management</span>
-        <span class="meta"><b>P. Amini</b>, D. Wasden, A. Farhang, E. Azarnasab, B. Farhang-Boroujeny. Software Defined Radio Technical Conference, 2008. Best Paper Award.</span>
+        <span class="meta"><b>P. Amini</b>, D. Wasden, A. Farhang, E. Azarnasab, Peiman Amini, B. Farhang-Boroujeny. Software Defined Radio Technical Conference, 2008. Best Paper Award.</span>
       </li>
     </ul>
     <p class="full-list">Full lists on <a href="https://scholar.google.com/citations?user=SwRsOwQAAAAJ&amp;hl=en">Google Scholar</a> and <a href="https://patents.google.com/?inventor=Pooyan+Amini">Google Patents</a>.</p>
